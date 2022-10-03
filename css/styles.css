@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* 
+font-family: 'Montserrat', sans-serif; */
+
+.main-div{
+    height: auto;
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 3%;
+
+}
+
+.main-div p{
+    font-size: 14px;
+}
+
+.image-div{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.image-div img{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index:0;
+    object-fit: fill;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+.content{
+    margin: auto 0;
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+button{
+    color:white;
+    background-color: hsl(158, 36%, 37%); 
+    border:0;
+}
+
+
+
+.content{
+    padding: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 100;
+}
+
+
+
+.content p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
